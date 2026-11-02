@@ -2,6 +2,8 @@
 
 本包由既有本地小说技能整理、修订而来。以下是当前能够核对的上游来源；本记录不代表已为所有文件完成逐段来源核定，也不将第三方内容重新标为另一种许可。
 
+本项目整理、改编与维护署名为 [梁养浩](AUTHORS.md)。该署名不替代下列上游作者及其版权声明；本项目署名要求见 [NOTICE.md](NOTICE.md)，不改变第三方已经授予的权利。
+
 | 来源 | 本地改编记录所涉及的内容 | 核对到的上游许可 |
 |---|---|---|
 | [snowflake-fiction](https://github.com/hestudy/snowflake-fiction) | 开篇、流水账、综合质量、人物、选题检查的方法与本地化技能 | MIT，Copyright (c) 2025 hestudy；全文见 [许可文本](LICENSES/snowflake-fiction.txt) |

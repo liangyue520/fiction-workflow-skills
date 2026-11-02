@@ -6,6 +6,8 @@
 
 **版本：v0.1.0 首版候选** · 中文 · 按需组合 · 当前以本地技能目录方式使用
 
+**项目整理、改编与维护：[梁养浩](AUTHORS.md)** · 本次上传为私有仓库
+
 [快速开始](#快速开始) · [使用示例](#使用示例) · [全部技能](#全部技能) · [协作规则](#协作规则) · [验证记录](VALIDATION.md) · [维护与贡献](#维护与贡献)
 
 ## 能帮你解决什么
@@ -166,6 +168,8 @@ python3 scripts/validate_package.py
 脚本不会自动安装依赖；只检查结构、版本、引用和部分明显私人标识，不能替代行为验证或人工来源核对。
 
 ## 来源与许可
+
+项目署名为 **梁养浩**。他人分发或公开改编本技能包时保留项目、作者和第三方来源的要求，已记录于 [署名声明](NOTICE.md)，将随首次公开时确定的许可落实。此声明不单独授予使用许可；上游材料的既有权利与许可继续有效。
 
 本包是在既有小说技能基础上的整理与改进，并补入实际协作经验。感谢 [snowflake-fiction](https://github.com/hestudy/snowflake-fiction)、[chinese-novelist-skill](https://github.com/PenglongHuang/chinese-novelist-skill) 及本地归档的 dreampowers；具体涉及内容与已知来源见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
