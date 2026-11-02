@@ -6,4 +6,4 @@
 
 当前版本：v0.1.0。署名记录日期：2026-11-02。
 
-本次采用私有仓库上传；具体仓库地址以实际创建结果为准。未来对外分发时使用的署名说明见 [NOTICE.md](NOTICE.md)，整体使用许可仍需在公开前确定。
+维护仓库：[liangyue520/fiction-workflow-skills](https://github.com/liangyue520/fiction-workflow-skills)，当前为私有仓库。未来对外分发时使用的署名说明见 [NOTICE.md](NOTICE.md)，整体使用许可仍需在公开前确定。

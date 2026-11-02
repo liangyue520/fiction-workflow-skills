@@ -4,9 +4,9 @@
 
 19 个可独立使用的技能，覆盖参考研读、现实研究、人物与场景设计、正文修订、读者体验和版本交付。适合已有故事、正在写长篇，或需要认真检查一份 AI 稿件的作者。
 
-**版本：v0.1.0 首版候选** · 中文 · 按需组合 · 当前以本地技能目录方式使用
+**版本：v0.1.0 首个维护版本** · 中文 · 按需组合 · 当前以本地技能目录方式使用
 
-**项目整理、改编与维护：[梁养浩](AUTHORS.md)** · 本次上传为私有仓库
+**项目整理、改编与维护：[梁养浩](AUTHORS.md)** · [GitHub 私有仓库](https://github.com/liangyue520/fiction-workflow-skills)
 
 [快速开始](#快速开始) · [使用示例](#使用示例) · [全部技能](#全部技能) · [协作规则](#协作规则) · [验证记录](VALIDATION.md) · [维护与贡献](#维护与贡献)
 
@@ -141,7 +141,7 @@ Codex 的当前官方文档支持项目内 `.agents/skills/` 和个人目录 `~/
 
 实际观察包括：识别连续章节的功能重复；保留有效的安静情感戏；缺正文时不强行评分；拒绝以旧版报告验收新稿。完整输入、实际输出、后续澄清和未测范围见 [VALIDATION.md](VALIDATION.md) 与 [行为验证说明](evals/README.md)。
 
-尚未完成跨宿主、多模型或真实长篇自动化的端到端验证；没有费用节省比例或固定质量分数承诺。v0.1.0 当前是本地首版候选，远程仓库与 Release 尚未创建。
+尚未完成跨宿主、多模型或真实长篇自动化的端到端验证；没有费用节省比例或固定质量分数承诺。v0.1.0 是第一份可持续维护的版本，保存在私有仓库；后续改动按版本记录维护，公开发布与整体许可另行确定。
 
 ## 常见问题
 
@@ -155,7 +155,7 @@ Codex 的当前官方文档支持项目内 `.agents/skills/` 和个人目录 `~/
 
 ## 维护与贡献
 
-欢迎提供一个具体问题和最小脱敏样例：使用的技能/版本、输入、实际结果、你认为哪里有问题，以及应当保留的正常行为。不要提交未公开正文、人物谜底、私人路径或原始聊天。仓库公开后可通过 Issue 或 PR 反馈；当前也可随本地修订附上同样的信息。
+欢迎提供一个具体问题和最小脱敏样例：使用的技能/版本、输入、实际结果、你认为哪里有问题，以及应当保留的正常行为。不要提交未公开正文、人物谜底、私人路径或原始聊天。有仓库访问权限的协作者可通过 Issue 或 PR 反馈，也可随本地修订附上同样的信息。
 
 `skills/` 是维护源，安装目录是副本。改进按“复现问题 → 最小修改 → 验证受影响行为与正常对照 → 记录版本 → 同步安装”推进，细则见 [MAINTAINING.md](MAINTAINING.md) 和 [CHANGELOG.md](CHANGELOG.md)。
 
@@ -173,6 +173,6 @@ python3 scripts/validate_package.py
 
 本包是在既有小说技能基础上的整理与改进，并补入实际协作经验。感谢 [snowflake-fiction](https://github.com/hestudy/snowflake-fiction)、[chinese-novelist-skill](https://github.com/PenglongHuang/chinese-novelist-skill) 及本地归档的 dreampowers；具体涉及内容与已知来源见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
-**整体许可仍待确认。** 已保留可核对的 MIT 与 GPL-3.0 上游文本，当前没有统一根目录 `LICENSE`。首次公开前须完成整体许可方案与来源版本补齐；不能将此候选包标为已采用 MIT 或已完成开源许可核定。
+**整体许可仍待确认。** 已保留可核对的 MIT 与 GPL-3.0 上游文本，当前没有统一根目录 `LICENSE`。首次公开前须完成整体许可方案与来源版本补齐；不能将本包标为已采用 MIT 或已完成开源许可核定。
 
 README 的信息组织参考了 [Anthropic Skills](https://github.com/anthropics/skills) 的技能说明与使用入口、[Superpowers](https://github.com/obra/superpowers) 的工作流与安装组织，以及 [chinese-novelist-skill](https://github.com/PenglongHuang/chinese-novelist-skill) 的快速开始。此处仅借鉴文档结构；能力、示例和验证范围均以本包实际内容为准。
