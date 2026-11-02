@@ -1,0 +1,4 @@
+interface:
+  display_name: "第一人称小说审查"
+  short_description: "检查第一人称小说的信息来源、空间连续性与关键动作因果边界"
+  default_prompt: "请使用 $author-first-person-fiction 检查指定版本正文的视角、空间和动作因果，并给出有证据的最小修改建议。"

@@ -1,0 +1,3 @@
+interface:
+  display_name: "小说冷读者审查"
+  short_description: "依据正文模拟翻页欲、信息负荷、共情与节奏，区分冷读和带背景判断。"

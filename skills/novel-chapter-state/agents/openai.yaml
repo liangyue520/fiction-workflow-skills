@@ -1,0 +1,3 @@
+interface:
+  display_name: "小说章节状态"
+  short_description: "从指定版本正文记录角色章末状态、实际变化和未兑现的故事承诺"
